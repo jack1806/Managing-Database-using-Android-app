@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DBMS</string>
+    <string name="nav_add">Add Entry</string>
+    <string name="nav_view">View Entries</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_custom_query">SQL</string>
+    <string name="dev_name">jAckiE</string>
+    <string name="nav_delete">Delete Entry</string>
+    <string name="set_server">Server Address</string>
+    <string name="set_button">SET</string>
+    <string name="delete_reg">Register Number</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="stud_name">Name</string>
+    <string name="stud_reg">Register Number</string>
+    <string name="stud_school">School </string>
+    <string name="stud_cgpa">CGPA</string>
+    <string name="add_header">Please Fill the details</string>
+    <string name="add_submit">Submit</string>
+
+</resources>

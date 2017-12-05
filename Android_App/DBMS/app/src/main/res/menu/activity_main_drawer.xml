@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_view"
+            android:icon="@drawable/nav_database_icon"
+            android:title="@string/nav_view"/>
+        <item
+            android:icon="@drawable/nav_add_icon"
+            android:id="@+id/nav_add"
+            android:title="@string/nav_add"/>
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/nav_delete_icon"
+            android:title="@string/nav_delete"/>
+        <item
+            android:id="@+id/nav_query"
+            android:title="@string/nav_custom_query"
+            android:icon="@drawable/custom_query_icon"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/nav_setting_icon"
+            android:title="@string/nav_setting"/>
+    </group>
+</menu>

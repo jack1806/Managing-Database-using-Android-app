@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.dbmsjack.dbms.SettingFragment">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/normal_textview"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        app:cardBackgroundColor="#000">
+
+        <LinearLayout
+            android:padding="@dimen/normal"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/set_server"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:paddingTop="@dimen/normal"
+                android:layout_marginLeft="@dimen/normal"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/current_server_address"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:padding="@dimen/normal"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/set_current_address"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOrange"
+                    android:textStyle="bold"
+                    android:textColorHint="#fff"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/normal"
+                    android:background="#FF6347"
+                    android:textStyle="bold"
+                    android:id="@+id/server_address_set_button"
+                    android:text="@string/set_button"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

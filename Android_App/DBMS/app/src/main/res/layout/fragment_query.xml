@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.dbmsjack.dbms.QueryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:id="@+id/input_query"/>
+
+        <Button
+            android:id="@+id/query_submit_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:background="#FF6347"
+            android:text="@string/add_submit" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_out"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/hello_blank_fragment" />
+
+</LinearLayout>

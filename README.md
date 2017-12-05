@@ -38,6 +38,6 @@
     
     After setting the address the app is ready to use for querying on the database.
 
-*Hooray !!!! You are ready to use the app ...
+* Hooray !!!! You are ready to use the app ...
 
 
